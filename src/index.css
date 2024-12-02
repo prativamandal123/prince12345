@@ -1,0 +1,458 @@
+/* Add this to your CSS file for custom navbar styles */
+
+  .navbar-light .navbar-nav .nav-link {
+    color:rgba(0, 128, 0, 0.596);
+    gap: 20px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 0, 0, 0.651);
+    transition: color 0.3s ease;
+    
+  }
+
+
+  /* Custom hover effect */
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: rgba(255, 0, 0, 0.651); 
+}
+  /* footer*/
+  .footer {
+    background-color:rgba(0, 128, 0, 0.596); 
+    color: white; 
+    padding: 40px 0;
+  }
+  /* team*/
+  .servicestext:hover {
+    color:rgba(255, 0, 0, 0.651) ;
+    transition: color 0.3s ease;
+}
+.icon-box {
+  background-color: white;
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+  margin:  0  120px;
+
+}
+
+.lined{
+  width: 100px;
+  height: 3px;
+  background-color: rgba(255, 0, 0, 0.651); 
+  margin: 20px auto; 
+
+}
+
+
+.teamcard {
+  animation: slide-up 1s ease forwards; 
+  opacity: 0; /
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px); 
+    opacity: 0; 
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+}
+
+.teamheader {
+  animation: slide-left 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  animation-delay: 0.3s; 
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100%);  
+    opacity: 0;  
+  }
+
+  50% {
+    transform: translateX(30px);  
+    opacity: 0.5; 
+  }
+
+  100% {
+    transform: translateX(0);  
+    opacity: 1; 
+  }
+}
+
+
+
+.doctorcard {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+}
+
+.doctorcard:hover {
+  transform: scale(1.05); 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; 
+  display: flex;
+  gap: 20px;
+  color: rgba(255, 0, 0, 0.651);
+  font-size: 1.8rem;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.image-container:hover .social-icons {
+  opacity: 1; 
+}
+
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .card-img-top {
+  transform: scale(1.1); 
+}
+
+
+
+/* banner*/
+
+
+.bannerimage-card {
+
+border-radius: 10px;
+  overflow: hidden; 
+
+}
+.bannerimage {
+ transition: transform 0.3s ease; 
+ 
+}
+
+.imageban-container:hover .bannerimage {
+  transform: scale(1.1); 
+}
+.bannretext {
+  animation: fade-right 1s ease forwards;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/* Text description section animation (slide-up) */
+.bannerdescreab {
+  animation: slide-up 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Image container animation (slide down) */
+.imageban-container {
+  animation: slide-Down 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slide-Down {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Styling for the header line */
+.lined {
+  width: 100px;
+  height: 3px;
+  background-color: rgba(255, 0, 0, 0.651);
+  margin: 20px auto;
+}
+
+/* Text animation (fade-in from left) */
+.bannretext {
+  animation: fade-right 1s ease forwards;
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/* Text description section animation (slide-up) */
+.bannerdescreab {
+  animation: slide-up 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Image container animation (slide down) */
+.imageban-container {
+  animation: slide-Down 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slide-Down {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* Line decoration style */
+.lined {
+  width: 100px;
+  height: 3px;
+  background-color: rgba(255, 0, 0, 0.651);
+  margin: 20px auto;
+}
+
+/* banner3*/
+.bannerimage3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Space between images */
+}
+
+.image-1, .image-2, .image-3 {
+  opacity: 0;
+  animation: slide-down 1s ease forwards;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow transition */
+  border-radius: 8px;
+}
+
+.image-1 {
+  animation-delay: 0.2s;
+}
+
+.image-2 {
+  animation-delay: 0.4s;
+}
+
+.image-3 {
+  animation-delay: 0.6s;
+}
+
+/* Slide-down animation */
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.image-1, .image-2, .image-3{
+ 
+  border-radius: 10px; 
+  overflow: hidden;
+  transition: transform 0.3s ease; /
+}
+
+
+.image-1, .image-2 ,.image-3{
+
+  transition: transform 0.3s ease; 
+}
+
+
+.image-1:hover .bannerimage {
+  transform: scale(1.1); 
+}
+.image-2:hover .bannerimage {
+  transform: scale(1.1); 
+}
+.image-3:hover .bannerimage {
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+
+/* Styling for pagination */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  padding: 8px 16px;
+  background-color: rgba(0, 128, 0, 0.596);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: rgba(255, 0, 0, 0.651);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .page-link:hover {
+  background-color:rgba(255, 0, 0, 0.651);
+  color: rgba(0, 128, 0, 0.596);
+}
+
+.pagination .active .page-link {
+  background-color: rgba(255, 0, 0, 0.651);
+  color: white;
+}
+
+.pagination .disabled .page-link {
+  background-color: #ddd;
+  color: rgba(0, 128, 0, 0.596);
+}
+
+.pagination .page-item .page-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom styles for prev/next buttons */
+.page-item .page-link svg {
+  width: 20px;
+  height: 20px;
+  color: rgba(255, 0, 0, 0.651);
+  transition: color 0.3s;
+}
+
+.page-item .page-link:hover svg {
+  color: rgba(0, 128, 0, 0.596);
+}
+
+.page-item .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.page-item.disabled .page-link svg {
+  color: rgba(0, 128, 0, 0.596);
+}
+
+.goingproject-card{
+  width:  630px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Apply hover effect to other images as well */
+.image-2, .image-3 {
+  transition: transform 0.3s ease;
+}
+
+.banner3image:hover .image-2 {
+  transform: scale(1.1); /* Slightly enlarge the second image on hover */
+}
+
+.banner3image:hover .image-3 {
+  transform: scale(1.1); /* Slightly enlarge the third image on hover */
+}
+
+
+/** login*/
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid red;
+  background-color: #ddd;
+
+}
+.logbtn{
+  width: 200px;
+  height: 50px;
+  background-color: rgba(0, 128, 0, 0.596);
+  color: #ddd;
+  text-align: center;
+}
+.logbtn:hover{
+  background-color: red;
+  color: #ddd;
+}
